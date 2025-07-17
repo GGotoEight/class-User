@@ -13,7 +13,7 @@ You can create and customize user
 - email
 
 #### Methods
-- valid_email(email: str) -> str: Check email on validity
+- valid_email(email: str) -> str: Check email on validity and return it
 - get_id(self) -> uuid.UUID: Return user's id
 - change_activate(self) -> None: Change user's active between True and False
 - check_active(self) -> bool: Return the user's current active (True or False)
