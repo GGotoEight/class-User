@@ -7,8 +7,8 @@ class User:
     """Class for a work with users"""
 
     @staticmethod
-    def valid_email(email):
-        """Check email on validity"""
+    def valid_email(email: str) -> str:
+        """Check email on validity and return it"""
         ev.validate_email(email)
         return email
 
